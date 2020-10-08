@@ -21,3 +21,160 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+.body{
+    background-color: #959595;
+}
+
+.zbozi {
+    display: flex;
+    margin-left: 100px;
+    max-width: 670px;
+    height: 440px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    box-shadow: #31363b 4px 6px 20px;
+    border-radius: 10px;
+}
+
+.vizual {
+    flex: 1;
+    background-image: linear-gradient(0deg, #50cc49,  #06d7c1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.detaily {
+    flex: 1;
+    
+}
+
+.bota {
+    position: absolute;
+    left: 30px;
+    top: 150px;
+}
+
+
+ul {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.slogan {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.cenovka {
+    position: absolute;
+    top: 369px;
+    left: 266px;
+    color: white;
+    padding-right: 30px;
+
+}
+
+ .cena {
+    font-weight: 500;
+    font-size: 28px;
+    position: relative;
+    text-align: right;
+    
+}
+
+.zaruka {
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    text-align: right;
+} 
+
+.nazev {
+    margin-top: 30px;
+    text-transform: uppercase;
+    flex-grow: 1;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.produkt {
+    color: #959595;
+    padding-left: 30px;
+}
+
+.popis {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+hr {
+    position: relative;
+    background-color: #06d7c1;
+    border-width: 0px;
+    height: 2px;
+    color: #06d7c1;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.velikosti {
+    padding-left: 30px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 54px;
+    border: 1px solid #f15f42;
+    border-radius: 5px;
+    background-color: #f15f42;
+    padding: 15px 25px 15px 25px
+}
